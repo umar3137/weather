@@ -16,7 +16,7 @@ def get_weather(city, api_key):
 
   r =  requests.get(complete_url)
   print(r)
-
+  print('Hello,')
   data = r.json()
   print(type(data))
 
